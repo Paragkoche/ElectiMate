@@ -2,7 +2,7 @@
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { login, signup } from "../_action/login.supabase";
+import { signup } from "../_action/login.supabase";
 import Link from "next/link";
 
 // 1. Define the schema with zod
